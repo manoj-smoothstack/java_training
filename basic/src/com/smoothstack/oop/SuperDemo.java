@@ -26,6 +26,6 @@ public class SuperDemo {
     public SuperDemo() {
         new A().construct();
         System.out.println(A.sb);
-        assert(A.sb.toString() == "BABCAC");
+        assert(A.sb.toString().equals("BABCAC"));
     }
 }
