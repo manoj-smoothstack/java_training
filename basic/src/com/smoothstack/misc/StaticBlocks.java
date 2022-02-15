@@ -8,7 +8,7 @@ public class StaticBlocks {
         System.out.println("This gets executed!");
     }
     public void residue() {
-        A a; // a lightweight
+        StaticA a; // a lightweight
     }
 
 }
