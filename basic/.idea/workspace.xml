@@ -30,7 +30,20 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.BasicMain">
+    <configuration name="ArrayDecl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.smoothstack.misc.ArrayDecl" />
+      <module name="basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.smoothstack.misc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BasicMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.smoothstack.basic.BasicMain" />
       <module name="basic" />
@@ -47,6 +60,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.BasicMain" />
+        <item itemvalue="Application.ArrayDecl" />
       </list>
     </recent_temporary>
   </component>
