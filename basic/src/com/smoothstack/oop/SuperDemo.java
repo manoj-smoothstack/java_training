@@ -1,6 +1,5 @@
 package com.smoothstack.oop;
 
-
 class B {
     public static StringBuffer sb = new StringBuffer();
 
