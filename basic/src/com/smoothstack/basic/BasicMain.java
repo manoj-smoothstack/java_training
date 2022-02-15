@@ -1,6 +1,6 @@
 package com.smoothstack.basic;
 
-import com.smoothstatic.staticblocks.StaticBlocks;
+import com.smoothstack.misc.StaticBlocks;
 
 public class BasicMain {
     public static void main(String[] args) {

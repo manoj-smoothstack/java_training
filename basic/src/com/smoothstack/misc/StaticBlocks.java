@@ -1,4 +1,4 @@
-package com.smoothstatic.staticblocks;
+package com.smoothstack.misc;
 
 public class StaticBlocks {
     public StaticBlocks() {
