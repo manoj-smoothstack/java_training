@@ -8,7 +8,7 @@ import java.nio.file.attribute.PosixFilePermission;
 import java.nio.file.attribute.PosixFilePermissions;
 import java.util.Set;
 
-public class TempFile {
+class TempFile {
     private String prefix, suffix;
     private Path mypath;
     private FileAttribute<Set<PosixFilePermission>> rwx;
@@ -24,5 +24,17 @@ public class TempFile {
     public void testFile() throws IOException {
         Files.writeString(mypath, "Hello");
         assert Files.readString(mypath).equals("Hello");
+    }
+}
+
+public class TempFileExample {
+    public TempFileExample() {
+        TempFile tempFile = new TempFile("test", ".txt", "rwxrwxrwx");
+        try {
+            tempFile.create();
+            tempFile.testFile();
+        } catch (IOException io) {
+            // hide knowingly
+        }
     }
 }

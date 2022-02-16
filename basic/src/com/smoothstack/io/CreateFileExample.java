@@ -7,8 +7,6 @@ import java.nio.file.Paths;
 import java.nio.file.attribute.FileAttribute;
 import java.nio.file.attribute.PosixFilePermission;
 import java.nio.file.attribute.PosixFilePermissions;
-import java.util.Collection;
-import java.util.Iterator;
 import java.util.Random;
 import java.util.Set;
 
@@ -27,7 +25,7 @@ class MyThread extends Thread {
     }
 }
 
-public class CreateFile {
+class CreateFile {
     private Path path;
     public CreateFile(String prefix) {
         path = Paths.get(prefix + new Random().nextInt());
@@ -39,5 +37,15 @@ public class CreateFile {
         System.out.println(mypath);
         assert Files.exists(path);
         Runtime.getRuntime().addShutdownHook(new MyThread(path));
+    }
+}
+
+public class CreateFileExample {
+    public CreateFileExample() {
+        try {
+            new CreateFile("test").create();
+        } catch (IOException io) {
+            // hide knowingly
+        }
     }
 }
