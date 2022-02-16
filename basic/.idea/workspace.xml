@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="df620383-1e49-41c7-af8f-cb82f16dc6dd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/smoothstack/misc/StaticA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smoothstack/misc/StaticA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/smoothstack/system/ReflectionsRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smoothstack/system/ReflectionsRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/smoothstack/system/RunnerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smoothstack/system/RunnerFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericsMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.smoothstack.generics.GenericsMethod" />
+    <configuration name="FunctorLike" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.smoothstack.lambdas.FunctorLike" />
       <module name="basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.smoothstack.generics.*" />
+          <option name="PATTERN" value="com.smoothstack.lambdas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,10 +134,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.BasicMain" />
+        <item itemvalue="Application.FunctorLike" />
         <item itemvalue="Application.ReflectionsRunner" />
         <item itemvalue="Application.StaticBlocksRunner" />
         <item itemvalue="Application.RunnerDemo" />
-        <item itemvalue="Application.GenericsMethod" />
       </list>
     </recent_temporary>
   </component>
