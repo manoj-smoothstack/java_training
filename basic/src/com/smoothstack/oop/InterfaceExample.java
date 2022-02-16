@@ -25,8 +25,8 @@ public class InterfaceExample {
         Kid anotherKid = (Kid)kid; // have to cast
         assert anotherKid.shouts() == 2;
         try {
-            Person person = (Person) kid;  // works, but is this safe
-            person.cries();
+            Person person = (Person) kid;  // compiles, but is this safe
+            person.cries(); // this line is not reached
         } catch (ClassCastException cce) {
             System.out.println(cce.getMessage());
             assert true;

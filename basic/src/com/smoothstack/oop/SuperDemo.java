@@ -24,7 +24,7 @@ class A extends  B {
 public class SuperDemo {
     public SuperDemo() {
         new A().construct();
-        System.out.println(A.sb);
+        //System.out.println(A.sb);
         assert(A.sb.toString().equals("BABCAC"));
     }
 }
