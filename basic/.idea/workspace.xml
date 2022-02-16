@@ -4,8 +4,6 @@
     <list default="true" id="df620383-1e49-41c7-af8f-cb82f16dc6dd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/smoothstack/basic/BasicMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smoothstack/basic/BasicMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/smoothstack/oop/InterfaceExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smoothstack/oop/InterfaceExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/smoothstack/oop/SuperDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smoothstack/oop/SuperDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

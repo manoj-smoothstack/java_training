@@ -2,6 +2,7 @@ package com.smoothstack.basic;
 
 import com.smoothstack.access.Access;
 import com.smoothstack.collections.ComparableDemo;
+import com.smoothstack.collections.ComparatorDemo;
 import com.smoothstack.collections.IteratorExample;
 import com.smoothstack.collections.VectorDemo;
 import com.smoothstack.io.BufferedIO;
@@ -45,5 +46,6 @@ public class BasicMain {
 
         IteratorExample iteratorExample = new IteratorExample();
         ComparableDemo comparableDemo = new ComparableDemo();
+        ComparatorDemo comparatorDemo = new ComparatorDemo();
     }
 }
