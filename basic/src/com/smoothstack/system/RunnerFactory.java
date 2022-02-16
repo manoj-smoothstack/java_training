@@ -7,9 +7,13 @@ import java.lang.reflect.InvocationTargetException;
 import java.util.List;
 
 public class RunnerFactory {
-    public RunnerFactory(Class[] list) throws ClassNotFoundException, InvocationTargetException, InstantiationException, IllegalAccessException, NoSuchMethodException {
+    public RunnerFactory(Class[] list, Class exclude) throws ClassNotFoundException, InvocationTargetException, InstantiationException, IllegalAccessException, NoSuchMethodException {
+        String classToExclude = exclude.getName();
         for (Class c: list) {
-            run(c);
+            //System.out.println("Run: " + c.getName() + ", exclude: " + exclude.getName());
+            String classToRun = c.getName();
+            if (!classToRun.equals(classToExclude) && !classToRun.contains("com.smoothstack.system"))
+                run(c);
         }
     };
 

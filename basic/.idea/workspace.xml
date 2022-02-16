@@ -4,8 +4,7 @@
     <list default="true" id="df620383-1e49-41c7-af8f-cb82f16dc6dd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/smoothstack/basic/BasicMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smoothstack/basic/BasicMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/smoothstack/io/CreateFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smoothstack/io/CreateFileExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/smoothstack/io/TempFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smoothstack/io/TempFileExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/smoothstack/system/RunnerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smoothstack/system/RunnerFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +94,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReflectionsRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.smoothstack.system.ReflectionsRunner" />
+      <module name="basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.smoothstack.system.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RunnerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.smoothstack.system.RunnerDemo" />
       <module name="basic" />
@@ -121,26 +133,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.smoothstack.threads.ThreadOrder" />
-      <module name="basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.smoothstack.threads.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.BasicMain" />
+        <item itemvalue="Application.ReflectionsRunner" />
         <item itemvalue="Application.StaticBlocksRunner" />
         <item itemvalue="Application.RunnerDemo" />
         <item itemvalue="Application.GenericsMethod" />
-        <item itemvalue="Application.ThreadOrder" />
       </list>
     </recent_temporary>
   </component>
