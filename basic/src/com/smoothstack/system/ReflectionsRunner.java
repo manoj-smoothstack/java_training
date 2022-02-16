@@ -15,7 +15,7 @@ public class ReflectionsRunner {
     public ReflectionsRunner() throws IOException, ClassNotFoundException {
         Class[] classes = getClasses("com.smoothstack");
         for (Class c: classes) {
-            System.out.println(c.getName());
+            //System.out.println(c.getName());
         }
     }
     public static Class[] getClasses(String packageName)

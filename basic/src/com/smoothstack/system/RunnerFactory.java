@@ -10,10 +10,13 @@ public class RunnerFactory {
     public RunnerFactory(Class[] list, Class exclude) throws ClassNotFoundException, InvocationTargetException, InstantiationException, IllegalAccessException, NoSuchMethodException {
         String classToExclude = exclude.getName();
         for (Class c: list) {
-            //System.out.println("Run: " + c.getName() + ", exclude: " + exclude.getName());
             String classToRun = c.getName();
-            if (!classToRun.equals(classToExclude) && !classToRun.contains("com.smoothstack.system"))
+            if (!classToRun.equals(classToExclude) && !classToRun.contains("com.smoothstack.system")) {
+                //System.out.println("Run: " + c.getName() + ", exclude: " + exclude.getName());
+                System.out.println("********************* Running class: " + classToRun + ". ");
                 run(c);
+                System.out.println("********************* Done class: " + classToRun + ".\n");
+            }
         }
     };
 

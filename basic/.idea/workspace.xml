@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="df620383-1e49-41c7-af8f-cb82f16dc6dd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/smoothstack/basic/BasicMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smoothstack/basic/BasicMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/smoothstack/misc/StaticA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smoothstack/misc/StaticA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/smoothstack/system/ReflectionsRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smoothstack/system/ReflectionsRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/smoothstack/system/RunnerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smoothstack/system/RunnerFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
