@@ -1,5 +1,6 @@
 package com.smoothstack.threads;
 
+@Deprecated
 public class ProducerConsumer {
     public static void main(String args[]) {
         BoundedBuffer<String> buffer = new BoundedBuffer<String>(2);
@@ -28,6 +29,7 @@ public class ProducerConsumer {
     }
 }
 
+@Deprecated
 class BoundedBuffer<T> {
     private final Object[] buffer;
     private int putpos, takepos, count;
