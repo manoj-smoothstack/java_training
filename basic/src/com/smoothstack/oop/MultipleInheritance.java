@@ -2,7 +2,7 @@ package com.smoothstack.oop;
 
 //class Musician { // cannot use classes
 interface Musician {
-    public String getTheater();
+    public String getInstrument();
 }
 //class Teacher {
 interface Teacher {
@@ -11,7 +11,7 @@ interface Teacher {
 //class MusicTeacher extends Musician, Teacher { // class multiple inheritance not possible
 class MusicTeacher implements Musician, Teacher {
     @Override
-    public String getTheater() {
+    public String getInstrument() {
         return null;
     }
     @Override

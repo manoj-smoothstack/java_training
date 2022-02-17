@@ -16,7 +16,8 @@ class ThreadAddAtomics extends Thread{
         }
         ThreadAddAtomics.count.incrementAndGet();
     }
-    public static void main(String[] args) throws InterruptedException {
+
+    public ThreadAddAtomics() throws InterruptedException {
         for (int i = 0; i < 10; i++) {
             ThreadAddAtomics s1 = new ThreadAddAtomics();
             ThreadAddAtomics s2 = new ThreadAddAtomics();
@@ -31,5 +32,8 @@ class ThreadAddAtomics extends Thread{
             ThreadAddAtomics.count = new AtomicInteger(0);
         }
         System.out.println("Hooray! No race condition!");
+    }
+    public static void main(String[] args) throws InterruptedException {
+        new ThreadAddAtomics();
     }
 }

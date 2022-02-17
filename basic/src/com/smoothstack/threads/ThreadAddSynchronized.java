@@ -19,6 +19,9 @@ class ThreadAddSynchronized extends Thread{
         }
     }
     public static void main(String[] args) throws InterruptedException {
+        new ThreadAddSynchronized();
+    }
+    public ThreadAddSynchronized() throws InterruptedException {
         for (int i = 0; i < 10; i++) {
             ThreadAddSynchronized s1 = new ThreadAddSynchronized();
             ThreadAddSynchronized s2 = new ThreadAddSynchronized();

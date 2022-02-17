@@ -30,21 +30,23 @@ class MyThread extends Thread {
     }
 }
 public class RaceCondition {
-    RaceCondition() throws InterruptedException {
-        for (int i = 0; i < 10000; i++) {
-            SharedObj so = new SharedObj();
-            MyThread mythread1 = new MyThread(so);
-            mythread1.start();
-            MyThread mythread2 = new MyThread((so));
-            mythread2.start();
-            mythread1.join();
-            mythread2.join();
-            //System.out.println("x = " + so.x + ", y = " + so.y);
-            if (so.x != 1 || so.y != 1) {
-                System.out.println("Race condition occurred, i = " + i);
-                break;
+    public RaceCondition() throws InterruptedException {
+       // try {
+            for (int i = 0; i < 10000; i++) {
+                SharedObj so = new SharedObj();
+                MyThread mythread1 = new MyThread(so);
+                mythread1.start();
+                MyThread mythread2 = new MyThread((so));
+                mythread2.start();
+                mythread1.join();
+                mythread2.join();
+                //System.out.println("x = " + so.x + ", y = " + so.y);
+                if (so.x != 1 || so.y != 1) {
+                    System.out.println("Race condition occurred, i = " + i);
+                    break;
+                }
             }
-        }
+        //} catch (InterruptedException e) {}
     }
     public static void main(String[] args) throws InterruptedException {
         new RaceCondition();

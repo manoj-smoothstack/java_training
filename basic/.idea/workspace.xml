@@ -3,6 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="df620383-1e49-41c7-af8f-cb82f16dc6dd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/smoothstack/oop/MultipleInheritance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smoothstack/oop/MultipleInheritance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/smoothstack/threads/RaceCondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smoothstack/threads/RaceCondition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/smoothstack/threads/ThreadAddAtomics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smoothstack/threads/ThreadAddAtomics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/smoothstack/threads/ThreadAddRaceCondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smoothstack/threads/ThreadAddRaceCondition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/smoothstack/threads/ThreadAddSynchronized.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smoothstack/threads/ThreadAddSynchronized.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/smoothstack/threads/ThreadCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smoothstack/threads/ThreadCases.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/smoothstack/threads/ThreadOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smoothstack/threads/ThreadOrder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +58,7 @@
       <recent name="$PROJECT_DIR$/src/com/smoothstack/oop" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AddFuturesSynchronized">
+  <component name="RunManager" selected="Application.BasicMain">
     <configuration name="AddFuturesRaceCondition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.smoothstack.threads.AddFuturesRaceCondition" />
       <module name="basic" />
@@ -81,7 +88,6 @@
     <configuration name="BasicMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.smoothstack.basic.BasicMain" />
       <module name="basic" />
-      <option name="VM_PARAMETERS" value="-ea" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.smoothstack.basic.*" />
@@ -94,19 +100,6 @@
     </configuration>
     <configuration name="ThreadAddAtomics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.smoothstack.threads.ThreadAddAtomics" />
-      <module name="basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.smoothstack.threads.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreadAddRaceCondition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.smoothstack.threads.ThreadAddRaceCondition" />
       <module name="basic" />
       <extension name="coverage">
         <pattern>
@@ -133,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BasicMain" />
         <item itemvalue="Application.AddFuturesSynchronized" />
         <item itemvalue="Application.AddFuturesRaceCondition" />
         <item itemvalue="Application.ThreadAddAtomics" />
         <item itemvalue="Application.ThreadAddSynchronized" />
-        <item itemvalue="Application.ThreadAddRaceCondition" />
       </list>
     </recent_temporary>
   </component>

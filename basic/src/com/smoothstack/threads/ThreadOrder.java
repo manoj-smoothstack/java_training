@@ -12,6 +12,9 @@ class MultithreadingDemo extends Thread {
 
 public class ThreadOrder {
     public static void main(String[] args) throws InterruptedException {
+        new ThreadOrder();
+    }
+    public ThreadOrder() throws InterruptedException {
         int n = 8; // Number of threads
         for (int i = 0; i < n; i++) {
             MultithreadingDemo object = new MultithreadingDemo();

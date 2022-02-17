@@ -74,12 +74,12 @@ public class ThreadCases {
     public static void main(String[] args) throws Exception {
         int N_CPUS = Runtime.getRuntime().availableProcessors();
         System.out.println("numCores = " + N_CPUS);
-        new ThreadCases().unsafeLogic();
+        new ThreadCases();
     }
-    public void outOfSequence(List<Integer> sequence) {
-
+    public ThreadCases() throws ExecutionException, InterruptedException {
+        unsafeLogic();
     }
-    public void unsafeLogic() throws Exception {
+    public void unsafeLogic() throws InterruptedException, ExecutionException {
         int count = 100;
         //List<Integer> uniqueSequences = getUniqueSequences(new SequenceGenerator(), count);
         //List<Integer> uniqueSequences = getUniqueSequences(new SequenceGeneratorUsingSynchronizedMethod(), count);
@@ -89,7 +89,7 @@ public class ThreadCases {
         System.out.println(uniqueSequences);
         assert count == uniqueSequences.size();
     }
-    private List<Integer> getUniqueSequences(SequenceGenerator generator, int count) throws Exception {
+    private List<Integer> getUniqueSequences(SequenceGenerator generator, int count) throws InterruptedException, ExecutionException {
         ExecutorService executor = Executors.newFixedThreadPool(3);
         List<Integer> uniqueSequences = new ArrayList<>();
         List<Future<Integer>> futures = new ArrayList<>();
