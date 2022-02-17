@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df620383-1e49-41c7-af8f-cb82f16dc6dd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../JUnitDemo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,13 +52,14 @@
       <recent name="$PROJECT_DIR$/src/com/smoothstack/oop" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PCThreads">
-    <configuration name="BoundedBuffer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.smoothstack.threads.BoundedBuffer" />
+  <component name="RunManager" selected="Application.PolyDemo">
+    <configuration name="BasicMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.smoothstack.basic.BasicMain" />
       <module name="basic" />
+      <option name="VM_PARAMETERS" value="-ea" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.smoothstack.threads.*" />
+          <option name="PATTERN" value="com.smoothstack.basic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,8 +67,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeadlockExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.smoothstack.threads.DeadlockExample" />
+    <configuration name="BoundedBuffer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.smoothstack.threads.BoundedBuffer" />
       <module name="basic" />
       <extension name="coverage">
         <pattern>
@@ -93,12 +93,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProducerConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.smoothstack.threads.ProducerConsumer" />
+    <configuration name="PolyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.smoothstack.oop.PolyDemo" />
       <module name="basic" />
+      <option name="VM_PARAMETERS" value="-ea" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.smoothstack.threads.*" />
+          <option name="PATTERN" value="com.smoothstack.oop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,13 +120,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.BoundedBuffer" />
+      <item itemvalue="Application.PCThreads" />
+      <item itemvalue="Application.PolyDemo" />
+      <item itemvalue="Application.ProducerConsumerThreads" />
+      <item itemvalue="Application.BasicMain" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PolyDemo" />
+        <item itemvalue="Application.BasicMain" />
         <item itemvalue="Application.PCThreads" />
         <item itemvalue="Application.ProducerConsumerThreads" />
         <item itemvalue="Application.BoundedBuffer" />
-        <item itemvalue="Application.ProducerConsumer" />
-        <item itemvalue="Application.DeadlockExample" />
       </list>
     </recent_temporary>
   </component>
