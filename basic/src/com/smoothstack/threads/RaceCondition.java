@@ -40,7 +40,7 @@ public class RaceCondition {
                 mythread2.start();
                 mythread1.join();
                 mythread2.join();
-                //System.out.println("x = " + so.x + ", y = " + so.y);
+                System.out.println("x = " + so.x + ", y = " + so.y);
                 if (so.x != 1 || so.y != 1) {
                     System.out.println("Race condition occurred, i = " + i);
                     break;

@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="df620383-1e49-41c7-af8f-cb82f16dc6dd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/smoothstack/threads/RaceCondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smoothstack/threads/RaceCondition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/smoothstack/threads/ThreadAddRaceCondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smoothstack/threads/ThreadAddRaceCondition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/smoothstack/threads/ThreadAddSynchronized.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smoothstack/threads/ThreadAddSynchronized.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,9 +55,48 @@
       <recent name="$PROJECT_DIR$/src/com/smoothstack/oop" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FuncInterface">
-    <configuration name="FuncInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.smoothstack.lambdas.FuncInterface" />
+  <component name="RunManager" selected="Application.B1_Stream_Traversible_Only_Once">
+    <configuration name="Analytics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.smoothstack.streams.transactions.Analytics" />
+      <module name="basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.smoothstack.streams.transactions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="B1_Stream_Traversible_Only_Once" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.smoothstack.streams.menu.B1_Stream_Traversible_Only_Once" />
+      <module name="basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.smoothstack.streams.menu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BasicMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.smoothstack.basic.BasicMain" />
+      <module name="basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.smoothstack.basic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LambdaExpressions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.smoothstack.lambdas.LambdaExpressions" />
       <module name="basic" />
       <extension name="coverage">
         <pattern>
@@ -66,52 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GCDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.smoothstack.gc.GCDemo" />
-      <module name="basic" />
-      <option name="VM_PARAMETERS" value="-ea -XX:+UseSerialGC" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.smoothstack.gc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PCThreads" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.smoothstack.threads.PCThreads" />
+    <configuration name="Transaction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.smoothstack.streams.transactions.Transaction" />
       <module name="basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.smoothstack.threads.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProducerConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.smoothstack.threads.ProducerConsumer" />
-      <module name="basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.smoothstack.threads.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProducerConsumerThreads" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.smoothstack.threads.ProducerConsumerThreads" />
-      <module name="basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.smoothstack.threads.*" />
+          <option name="PATTERN" value="com.smoothstack.streams.transactions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,19 +122,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.PCThreads" />
-      <item itemvalue="Application.ProducerConsumerThreads" />
-      <item itemvalue="Application.ProducerConsumer" />
-      <item itemvalue="Application.GCDemo" />
-      <item itemvalue="Application.FuncInterface" />
+      <item itemvalue="Application.Transaction" />
+      <item itemvalue="Application.Analytics" />
+      <item itemvalue="Application.BasicMain" />
+      <item itemvalue="Application.LambdaExpressions" />
+      <item itemvalue="Application.B1_Stream_Traversible_Only_Once" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FuncInterface" />
-        <item itemvalue="Application.GCDemo" />
-        <item itemvalue="Application.ProducerConsumerThreads" />
-        <item itemvalue="Application.PCThreads" />
-        <item itemvalue="Application.ProducerConsumer" />
+        <item itemvalue="Application.B1_Stream_Traversible_Only_Once" />
+        <item itemvalue="Application.LambdaExpressions" />
+        <item itemvalue="Application.BasicMain" />
+        <item itemvalue="Application.Analytics" />
+        <item itemvalue="Application.Transaction" />
       </list>
     </recent_temporary>
   </component>

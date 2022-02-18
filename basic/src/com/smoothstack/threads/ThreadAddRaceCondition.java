@@ -14,15 +14,18 @@ class ThreadAddRaceCondition extends Thread {
         }
         ThreadAddRaceCondition.count++;
     }
+
     public static void main(String[] args) throws InterruptedException {
-        new ThreadAddRaceCondition();
-    }
-    public ThreadAddRaceCondition() throws InterruptedException {
-        ThreadAddRaceCondition s1 = new ThreadAddRaceCondition();
-        ThreadAddRaceCondition s2 = new ThreadAddRaceCondition();
-        s1.start();s2.start();
-        s1.join();
-        s2.join();
-        System.out.println(ThreadAddRaceCondition.count);
+        for (int i = 0; i < 100; i++ ) {
+            ThreadAddRaceCondition s1 = new ThreadAddRaceCondition();
+            ThreadAddRaceCondition s2 = new ThreadAddRaceCondition();
+
+            s1.start();
+            s2.start();
+            s1.join();
+            s2.join();
+            System.out.println(ThreadAddRaceCondition.count);
+            ThreadAddRaceCondition.count = 0;
+        }
     }
 }
