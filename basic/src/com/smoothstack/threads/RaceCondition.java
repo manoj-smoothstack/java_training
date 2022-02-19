@@ -3,10 +3,13 @@ package com.smoothstack.threads;
 
 // Ignore this class, it is hard to reproduce the race condition.
 
+@Deprecated
 class SharedObj {
     public int x = 0;
     public int y = 0;
 }
+
+@Deprecated
 class MyThread extends Thread {
     SharedObj so;
     public MyThread(SharedObj so) {
@@ -29,6 +32,8 @@ class MyThread extends Thread {
         update();
     }
 }
+
+@Deprecated
 public class RaceCondition {
     public RaceCondition() throws InterruptedException {
        // try {

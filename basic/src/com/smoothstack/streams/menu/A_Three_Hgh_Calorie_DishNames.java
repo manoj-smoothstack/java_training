@@ -16,7 +16,7 @@ import static java.util.stream.Collectors.toList;
  idea in greater detail in the coming sections.
 
  - Source: Streams consume from a data-providing source such as collections, arrays, or I/O resources.
- Note that generating a stream from an ordered collec- tion preserves the ordering.
+ Note that generating a stream from an ordered collection preserves the ordering.
 
  The elements of a stream coming from a list will have the same order as the list.
 

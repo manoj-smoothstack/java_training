@@ -22,6 +22,9 @@ class MyRunnable implements Runnable {
 }
 
 public class ThreadDemo {
+    public static void main(String[] args) throws InterruptedException {
+        new ThreadDemo();
+    }
     public ThreadDemo() throws InterruptedException {
         Vector<Thread> threads = new Vector<>();
         System.out.println("ThreadDemo Begins!");

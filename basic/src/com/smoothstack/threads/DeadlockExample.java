@@ -1,8 +1,11 @@
 package com.smoothstack.threads;
 
+import com.smoothstack.system.SkipMe;
+
 import java.util.Timer;
 import java.util.TimerTask;
 
+@SkipMe
 public class DeadlockExample {
     public static Object Lock1 = new Object();
     public static Object Lock2 = new Object();

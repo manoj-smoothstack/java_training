@@ -144,12 +144,12 @@ public class LambdaExpressions {
          * is the implementation of the apply() method above.
          */
         List<Integer> l = map(
-            Arrays.asList("lambdas", "in", "action"), (String s) -> s.length()
+                Arrays.asList("lambdas", "in", "action"), (String s) -> s.length()
         );
         System.out.println(l);
     }
 
-    public interface IntPredicate{
+    public interface IntPredicate {
         boolean test(int t);
     }
 

@@ -54,7 +54,8 @@ public class PCThreads {
         // Function called by producer thread
         public void produce() throws InterruptedException {
             int value = 0;
-            while (true) {
+            int cntr = 0;
+            while (true && ++cntr < 5) {
                 synchronized (this) {
                     // producer thread waits while list
                     // is full
@@ -79,7 +80,8 @@ public class PCThreads {
 
         // Function called by consumer thread
         public void consume() throws InterruptedException {
-            while (true) {
+            int cntr = 0;
+            while (true && ++cntr < 5) {
                 synchronized (this) {
                     // consumer thread waits while list
                     // is empty

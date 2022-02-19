@@ -25,7 +25,12 @@ class ThreadAddRaceCondition extends Thread {
             s1.join();
             s2.join();
             System.out.println(ThreadAddRaceCondition.count);
+            if (ThreadAddRaceCondition.count == 1) {
+                System.out.println("Successfully reproduced Race Condition!");
+                System.exit(0);
+            }
             ThreadAddRaceCondition.count = 0;
         }
+        System.exit(1);
     }
 }

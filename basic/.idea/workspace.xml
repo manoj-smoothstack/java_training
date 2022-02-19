@@ -3,9 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="df620383-1e49-41c7-af8f-cb82f16dc6dd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/smoothstack/lambdas/LambdaExpressions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smoothstack/lambdas/LambdaExpressions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/smoothstack/streams/menu/A_Three_Hgh_Calorie_DishNames.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smoothstack/streams/menu/A_Three_Hgh_Calorie_DishNames.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/smoothstack/system/RunnerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smoothstack/system/RunnerFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/smoothstack/threads/DeadlockExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smoothstack/threads/DeadlockExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/smoothstack/threads/PCThreads.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smoothstack/threads/PCThreads.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/smoothstack/threads/RaceCondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smoothstack/threads/RaceCondition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/smoothstack/threads/ThreadAddAtomics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smoothstack/threads/ThreadAddAtomics.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/smoothstack/threads/ThreadAddRaceCondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smoothstack/threads/ThreadAddRaceCondition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/smoothstack/threads/ThreadAddSynchronized.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smoothstack/threads/ThreadAddSynchronized.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/smoothstack/threads/ThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smoothstack/threads/ThreadDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +22,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -43,7 +50,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="full.screen.before.presentation.mode" value="true" />
+    <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/smoothstack/oop" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -55,33 +62,7 @@
       <recent name="$PROJECT_DIR$/src/com/smoothstack/oop" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.B1_Stream_Traversible_Only_Once">
-    <configuration name="Analytics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.smoothstack.streams.transactions.Analytics" />
-      <module name="basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.smoothstack.streams.transactions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="B1_Stream_Traversible_Only_Once" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.smoothstack.streams.menu.B1_Stream_Traversible_Only_Once" />
-      <module name="basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.smoothstack.streams.menu.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.BasicMain">
     <configuration name="BasicMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.smoothstack.basic.BasicMain" />
       <module name="basic" />
@@ -95,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaExpressions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.smoothstack.lambdas.LambdaExpressions" />
+    <configuration name="ThreadAddSynchronized" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.smoothstack.threads.ThreadAddSynchronized" />
       <module name="basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.smoothstack.lambdas.*" />
+          <option name="PATTERN" value="com.smoothstack.threads.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +89,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Transaction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.smoothstack.streams.transactions.Transaction" />
+    <configuration name="ThreadCases" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.smoothstack.threads.ThreadCases" />
       <module name="basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.smoothstack.streams.transactions.*" />
+          <option name="PATTERN" value="com.smoothstack.threads.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.smoothstack.threads.ThreadDemo" />
+      <module name="basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.smoothstack.threads.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.smoothstack.threads.ThreadOrder" />
+      <module name="basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.smoothstack.threads.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,19 +129,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Transaction" />
-      <item itemvalue="Application.Analytics" />
+      <item itemvalue="Application.ThreadAddSynchronized" />
+      <item itemvalue="Application.ThreadCases" />
+      <item itemvalue="Application.ThreadDemo" />
+      <item itemvalue="Application.ThreadOrder" />
       <item itemvalue="Application.BasicMain" />
-      <item itemvalue="Application.LambdaExpressions" />
-      <item itemvalue="Application.B1_Stream_Traversible_Only_Once" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.B1_Stream_Traversible_Only_Once" />
-        <item itemvalue="Application.LambdaExpressions" />
         <item itemvalue="Application.BasicMain" />
-        <item itemvalue="Application.Analytics" />
-        <item itemvalue="Application.Transaction" />
+        <item itemvalue="Application.ThreadOrder" />
+        <item itemvalue="Application.ThreadDemo" />
+        <item itemvalue="Application.ThreadCases" />
+        <item itemvalue="Application.ThreadAddSynchronized" />
       </list>
     </recent_temporary>
   </component>
