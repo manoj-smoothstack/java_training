@@ -3,15 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="df620383-1e49-41c7-af8f-cb82f16dc6dd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/smoothstack/lambdas/LambdaExpressions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smoothstack/lambdas/LambdaExpressions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/smoothstack/streams/menu/A_Three_Hgh_Calorie_DishNames.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smoothstack/streams/menu/A_Three_Hgh_Calorie_DishNames.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/smoothstack/system/RunnerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smoothstack/system/RunnerFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/smoothstack/threads/DeadlockExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smoothstack/threads/DeadlockExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/smoothstack/threads/PCThreads.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smoothstack/threads/PCThreads.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/smoothstack/threads/RaceCondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smoothstack/threads/RaceCondition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/smoothstack/threads/ThreadAddAtomics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smoothstack/threads/ThreadAddAtomics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/smoothstack/threads/ThreadAddRaceCondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smoothstack/threads/ThreadAddRaceCondition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/smoothstack/threads/ThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smoothstack/threads/ThreadDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
