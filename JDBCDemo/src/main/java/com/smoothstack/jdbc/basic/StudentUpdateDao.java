@@ -80,8 +80,8 @@ public class StudentUpdateDao {
             conn = DriverManager.getConnection("jdbc:mysql://localhost/hb_student_tracker?" +
                     "user=root&password=StrongPassword1$");
 
+            Statement stmt = conn.createStatement();
             for (Student student: students) {
-                Statement stmt = conn.createStatement();
                 stmt.executeUpdate("insert into " + tableName + " set first_name = '" + student.getFirst_name() +
                         "', last_name = '" + student.getLast_name() +
                         "', email = '" + student.getEmail() + "'");
@@ -98,8 +98,8 @@ public class StudentUpdateDao {
                     "user=root&password=StrongPassword1$");
 
             String query = "insert into " + tableName + " set first_name = ?, last_name = ?, email = ?";
+            PreparedStatement stmt = conn.prepareStatement(query);
             for (Student student: students) {
-                PreparedStatement stmt = conn.prepareStatement(query);
                 //stmt.setString(1, tableName);
                 stmt.setString(1, student.getFirst_name());
                 stmt.setString(2, student.getLast_name());
@@ -118,9 +118,9 @@ public class StudentUpdateDao {
                     "user=root&password=StrongPassword1$");
 
             String query = "insert into " + tableName + " set first_name = ?, last_name = ?, email = ?";
+            PreparedStatement stmt = conn.prepareStatement(query);
             conn.setAutoCommit(false);
             for (Student student: students) {
-                PreparedStatement stmt = conn.prepareStatement(query);
                 //stmt.setString(1, tableName);
                 stmt.setString(1, student.getFirst_name());
                 stmt.setString(2, student.getLast_name());

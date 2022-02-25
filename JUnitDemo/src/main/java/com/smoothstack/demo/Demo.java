@@ -12,5 +12,4 @@ public class Demo {
     public String world() {
         return "world";
     }
-
 }

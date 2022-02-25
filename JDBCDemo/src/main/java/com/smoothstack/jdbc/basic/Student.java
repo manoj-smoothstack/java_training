@@ -5,6 +5,7 @@ import java.util.Objects;
 public class Student {
     private String first_name;
     private String last_name;
+    private String email;
 
     @Override
     public String toString() {
@@ -58,5 +59,4 @@ public class Student {
         this.email = email;
     }
 
-    private String email;
 }

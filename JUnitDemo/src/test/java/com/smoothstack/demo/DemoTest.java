@@ -3,11 +3,9 @@ package com.smoothstack.demo;
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.api.condition.*;
 
-import java.lang.annotation.ElementType;
-import java.lang.annotation.Retention;
-import java.lang.annotation.RetentionPolicy;
-import java.lang.annotation.Target;
-
+import static org.hamcrest.CoreMatchers.equalTo;
+import static org.hamcrest.CoreMatchers.is;
+import static org.junit.Assert.assertThat;
 import static org.junit.jupiter.api.Assertions.*;
 import static org.junit.jupiter.api.Assumptions.assumeTrue;
 import static org.junit.jupiter.api.condition.JRE.*;
@@ -73,6 +71,11 @@ class DemoTest {
     @Disabled("This feature is not supported.")
     public void testFeature() {
         assert false;
+    }
+
+    @Test
+    void assertWithHamcrestMatcher() {
+        assertThat(Math.subtractExact(4, 1), is(equalTo(3)));
     }
 
     @AfterEach
