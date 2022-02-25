@@ -16,7 +16,19 @@ public class CustomerAccountUpdateDao {
             String query = "insert into " + tableName + " set customerName = '" + customer.getCustomerName() + "'";
             conn.setAutoCommit(false);
             Statement stmt = conn.createStatement();
-            int lastInsertedId  = stmt.executeUpdate(query, Statement.RETURN_GENERATED_KEYS);
+            int numRows  = stmt.executeUpdate(query, Statement.RETURN_GENERATED_KEYS);
+            System.out.println("numRows inserted = " + numRows);
+            int lastInsertedId = 0;
+            if (numRows == 1) {
+                ResultSet genKeys = stmt.getGeneratedKeys();
+                if (genKeys.next()) {
+                    lastInsertedId = genKeys.getInt(1);  // ResultSet should have exactly one column, the primary key of INSERT table.
+                } else {
+                    throw new SQLException("Could not get the customerId");
+                }
+            } else {
+                throw new SQLException("Could not get the customerId");
+            }
             conn.commit();
             conn.setAutoCommit(true);
             return lastInsertedId;

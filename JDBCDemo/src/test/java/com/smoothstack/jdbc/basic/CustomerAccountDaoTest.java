@@ -20,6 +20,7 @@ class CustomerAccountDaoTest {
         //boolean created = customerAccountUpdateDao.createTable(tableName);
         Customer customer = new Customer(0, "Jean Luc Ponty");
         int customerId = customerAccountUpdateDao.insertCustomer("customer", customer);
+        System.out.println("customerId = " + customerId);
         Integer accountId = Math.abs(new Random().nextInt());
         String accountType = "Checking";
         double accountBalance = 2000;
