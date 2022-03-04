@@ -5,9 +5,8 @@ import java.util.Random;
 public class RandomExample {
     public RandomExample() {
         Random rand = new Random();
-        int upperbound = 100;
-        int nextInt = rand.nextInt(upperbound);
-        float nextFloat = rand.nextFloat(upperbound);
+        int nextInt = rand.nextInt();
+        float nextFloat = rand.nextFloat();
         double nextDouble = rand.nextDouble();
     }
 }

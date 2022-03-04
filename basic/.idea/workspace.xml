@@ -1,8 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="df620383-1e49-41c7-af8f-cb82f16dc6dd" name="Changes" comment="">
+    <list default="true" id="159ff2c6-7bf8-4a6e-93d2-01fcfa9df049" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../JDBCDemo/JDBCDemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUnitDemo/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUnitDemo/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUnitDemo/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUnitDemo/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUnitDemo/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUnitDemo/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUnitDemo/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUnitDemo/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUnitDemo/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUnitDemo/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUnitDemo/JUnitDemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_all_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Question/Question.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JDBCDemo/src/main/java/com/smoothstack/jdbc/basic/AccountDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JDBCDemo/src/main/java/com/smoothstack/jdbc/basic/AccountDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JDBCDemo/src/main/java/com/smoothstack/jdbc/basic/CustomerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JDBCDemo/src/main/java/com/smoothstack/jdbc/basic/CustomerDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JDBCDemo/src/main/java/com/smoothstack/jdbc/basic/StudentUpdateDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JDBCDemo/src/main/java/com/smoothstack/jdbc/basic/StudentUpdateDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JUnitDemo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JUnitDemo/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JUnitDemo/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JUnitDemo/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JUnitDemo/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JUnitDemo/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JUnitDemo/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JUnitDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JUnitDemo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JUnitDemo/src/test/java/com/smoothstack/demo/DemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JUnitDemo/src/test/java/com/smoothstack/demo/DemoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/smoothstack/io/TempFileExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smoothstack/io/TempFileExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/smoothstack/lambdas/LambdaExpressions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smoothstack/lambdas/LambdaExpressions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/smoothstack/misc/RandomExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smoothstack/misc/RandomExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/smoothstack/oop/DefaultMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smoothstack/oop/DefaultMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/smoothstack/streams/menu/L_FlatMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smoothstack/streams/menu/L_FlatMap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,25 +62,23 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitSEFilterConfiguration">
-    <file-type-list>
-      <filtered-out-file-type name="LOCAL_BRANCH" />
-      <filtered-out-file-type name="REMOTE_BRANCH" />
-      <filtered-out-file-type name="TAG" />
-      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
-    </file-type-list>
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="258FhW3BREVeEQeW9r1hbSylP4h" />
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="25htI4dxPElm8sRpmgQP5crmsx0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -41,22 +88,24 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/smoothstack/oop" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/com/smoothstack/oop" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Application.BasicMain">
+  <component name="RunManager" selected="JUnit.DemoShortTest">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
     <configuration name="BasicMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.smoothstack.basic.BasicMain" />
       <module name="basic" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.smoothstack.basic.*" />
@@ -67,12 +116,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadAddSynchronized" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.smoothstack.threads.ThreadAddSynchronized" />
-      <module name="basic" />
+    <configuration name="CreateTableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.smoothstack.jdbc.main.CreateTableDemo" />
+      <module name="JDBCDemo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.smoothstack.threads.*" />
+          <option name="PATTERN" value="com.smoothstack.jdbc.main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,82 +130,105 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadCases" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.smoothstack.threads.ThreadCases" />
-      <module name="basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.smoothstack.threads.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.smoothstack.threads.ThreadDemo" />
-      <module name="basic" />
+    <configuration name="DemoShortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JUnitDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.smoothstack.threads.*" />
+          <option name="PATTERN" value="com.smoothstack.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.smoothstack.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.smoothstack.demo.DemoShortTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.smoothstack.threads.ThreadOrder" />
-      <module name="basic" />
+    <configuration name="StudentDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JDBCDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.smoothstack.threads.*" />
+          <option name="PATTERN" value="com.smoothstack.jdbc.basic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.smoothstack.jdbc.basic" />
+      <option name="MAIN_CLASS_NAME" value="com.smoothstack.jdbc.basic.StudentDaoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Application.ThreadAddSynchronized" />
-      <item itemvalue="Application.ThreadCases" />
-      <item itemvalue="Application.ThreadDemo" />
-      <item itemvalue="Application.ThreadOrder" />
-      <item itemvalue="Application.BasicMain" />
-    </list>
+    <configuration name="StudentDaoTest.testGetStudents" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JDBCDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.smoothstack.jdbc.basic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.smoothstack.jdbc.basic" />
+      <option name="MAIN_CLASS_NAME" value="com.smoothstack.jdbc.basic.StudentDaoTest" />
+      <option name="METHOD_NAME" value="testGetStudents" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DemoShortTest" />
+        <item itemvalue="JUnit.StudentDaoTest" />
+        <item itemvalue="JUnit.StudentDaoTest.testGetStudents" />
+        <item itemvalue="Application.CreateTableDemo" />
         <item itemvalue="Application.BasicMain" />
-        <item itemvalue="Application.ThreadOrder" />
-        <item itemvalue="Application.ThreadDemo" />
-        <item itemvalue="Application.ThreadCases" />
-        <item itemvalue="Application.ThreadAddSynchronized" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="df620383-1e49-41c7-af8f-cb82f16dc6dd" name="Changes" comment="" />
-      <created>1644900942228</created>
+      <changelist id="159ff2c6-7bf8-4a6e-93d2-01fcfa9df049" name="Changes" comment="" />
+      <created>1645991063444</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1644900942228</updated>
+      <updated>1645991063444</updated>
     </task>
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>

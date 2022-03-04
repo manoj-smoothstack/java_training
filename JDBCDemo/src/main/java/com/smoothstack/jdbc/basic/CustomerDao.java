@@ -11,7 +11,7 @@ public class CustomerDao {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             conn = DriverManager.getConnection("jdbc:mysql://localhost/hb_student_tracker?" +
-                    "user=root&password=StrongPassword1$");
+                    "user=root&password=mysql");
 
             Statement stmt = conn.createStatement();
             ResultSet rset = stmt.executeQuery("select customerId, customerName from " + tableName + ";");

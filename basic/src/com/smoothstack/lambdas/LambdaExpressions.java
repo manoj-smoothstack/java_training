@@ -32,12 +32,27 @@ public class LambdaExpressions {
         r2.run();
     }
 
+    interface StringLength {
+        int len(String str);
+    }
+
     public void lambda1() {
-        interface StringLength {
-            int len(String str);
-        }
+
         StringLength sl = (String s) -> s.length();
         System.out.println(sl.len("Hello"));
+    }
+
+    class Apple {
+        int weight = 100;
+
+        public int getWeight() {
+            return weight;
+        }
+    }
+
+    @FunctionalInterface
+    interface Condition {
+        boolean check(Apple a);
     }
 
     /**
@@ -55,28 +70,21 @@ public class LambdaExpressions {
      * You can think of it like the @Override notation to indicate that a method is overridden.
      */
     public void lambda2() {
-        class Apple {
-            int weight = 100;
 
-            public int getWeight() {
-                return weight;
-            }
-        }
         Apple a = new Apple();
 
-        @FunctionalInterface
-        interface Condition {
-            boolean check(Apple a);
-        }
+
         Condition condition = (Apple b) -> b.getWeight() > 150;
         System.out.println(condition.check(a));
     }
 
+    @FunctionalInterface
+    interface Adder<T> {
+        void print(T a, T b);
+    }
+
     public void lambda3() {
-        @FunctionalInterface
-        interface Adder<T> {
-            void print(T a, T b);
-        }
+
         Adder<Integer> adder = (Integer x, Integer y) -> {
             System.out.println("Result: ");
             System.out.println(x + y);
@@ -84,10 +92,12 @@ public class LambdaExpressions {
         adder.print(4, 5);
     }
 
+    interface Get {
+        int num();
+    }
+
     public void lambda4() {
-        interface Get {
-            int num();
-        }
+
         Get get = () -> 42;
         System.out.println(get.num());
     }
@@ -106,16 +116,16 @@ public class LambdaExpressions {
     }
 
     @FunctionalInterface
-    interface Adder<T extends Integer> {
+    interface AdderNum<T extends Integer> {
         T add(T a, T b);
     }
 
-    public <T extends Integer> T add(T x, T y, Adder adder) {
+    public <T extends Integer> T add(T x, T y, AdderNum adder) {
         return (T) adder.add(x, y);
     }
 
     public void lambda7() {
-        Adder adder = (x, y) -> {
+        AdderNum adder = (x, y) -> {
             return (x + y);
         };
         System.out.println(add(4, 5, adder));
@@ -132,12 +142,12 @@ public class LambdaExpressions {
         return result;
     }
 
-    public void lambda8() {
-        @FunctionalInterface
-        interface Function<T, R> {
-            R apply(T t);
-        }
+    @FunctionalInterface
+    interface Function<T, R> {
+        R apply(T t);
+    }
 
+    public void lambda8() {
         /**
          * The lambda below
          * (String s) -> s.length()

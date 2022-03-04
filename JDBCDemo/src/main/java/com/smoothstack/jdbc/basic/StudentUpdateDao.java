@@ -55,7 +55,7 @@ public class StudentUpdateDao {
         Connection conn = null;
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            conn = DriverManager.getConnection("jdbc:mysql://localhost/hb_student_tracker?" +
+            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/hb_student_tracker?" +
                     "user=root&password=StrongPassword1$");
             boolean tableExists = tableExistsOnConn(conn, tableName);
             if (tableExists) return false;

@@ -33,7 +33,7 @@ public class L_FlatMap {
                 .distinct()
                 .collect(toList());
         for (Stream<String> sstring : list) {
-            System.out.println(sstring.toList());
+            System.out.println(sstring);
         }
 
         /*

@@ -5,7 +5,7 @@ import org.junit.jupiter.api.condition.*;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.is;
-import static org.junit.Assert.assertThat;
+import static org.hamcrest.MatcherAssert.assertThat;
 import static org.junit.jupiter.api.Assertions.*;
 import static org.junit.jupiter.api.Assumptions.assumeTrue;
 import static org.junit.jupiter.api.condition.JRE.*;
@@ -45,7 +45,7 @@ class DemoTest {
     @Test
     @DisabledOnJre(JAVA_9)
     @EnabledIfSystemProperty(named = "os.arch", matches = ".*64.*")
-    @EnabledIfEnvironmentVariable(named = "USER", matches = "user")
+    @EnabledIfEnvironmentVariable(named = "USER", matches = "manojjoshi")
     @Order(2)
     public void testHello() {
         assertNotNull(demo);
@@ -59,7 +59,7 @@ class DemoTest {
     @EnabledIf("customCondition")
     @Order(1)
     public void testWorld() {
-        assumeTrue("user".equals(System.getenv("USER")));
+        assumeTrue("user".equals(System.getenv("manojjoshi")));
         assertNotNull(demo);
         assert demo.world() == "world";
     }
