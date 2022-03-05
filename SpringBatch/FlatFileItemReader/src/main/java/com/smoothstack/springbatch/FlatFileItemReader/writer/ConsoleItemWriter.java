@@ -8,6 +8,6 @@ public class ConsoleItemWriter extends AbstractItemStreamItemWriter {
     @Override
     public void write(List items) throws Exception {
         items.stream().forEach(System.out::println);
-        System.out.println(" ************ writing each chunck ***********");
+        System.out.println(" ************ writing each chunk ***********");
     }
 }

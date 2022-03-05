@@ -15,6 +15,8 @@ import org.springframework.batch.item.file.FlatFileItemReader;
 import org.springframework.batch.item.file.mapping.BeanWrapperFieldSetMapper;
 import org.springframework.batch.item.file.mapping.DefaultLineMapper;
 import org.springframework.batch.item.file.transform.DelimitedLineTokenizer;
+import org.springframework.batch.item.file.transform.FixedLengthTokenizer;
+import org.springframework.batch.item.file.transform.Range;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
@@ -39,7 +41,7 @@ public class BatchConfiguration {
     @StepScope
     @Bean
     public FlatFileItemReader flatFileItemReader(
-            @Value("#{jobParameters['fileInput']}")
+            @Value("#{jobParameters['flatFile']}")
                     FileSystemResource inputFile) {
         FlatFileItemReader reader = new FlatFileItemReader();
         // step 1 let reader know where is the file
@@ -70,8 +72,50 @@ public class BatchConfiguration {
         return reader;
     }
 
+    @StepScope
     @Bean
-    public Step step(){
+    public FlatFileItemReader fixedWidthFileItemReader(
+            @Value( "#{jobParameters['fixedWidthFile']}" )
+                    FileSystemResource inputFile ){
+        FlatFileItemReader reader = new FlatFileItemReader();
+        // step 1 let reader know where is the file
+        reader.setResource( inputFile );
+
+        //create the line Mapper
+        reader.setLineMapper(
+                new DefaultLineMapper<Product>(){
+                    {
+                        setLineTokenizer( new FixedLengthTokenizer() {
+                            {
+                                setNames( new String[]{"prodId","productName","productDesc","price","unit"});
+                                setColumns(
+                                        new Range(1,16),
+                                        new Range(17,41),
+                                        new Range(42,65),
+                                        new Range(66, 73),
+                                        new Range(74,80)
+
+                                );
+                            }
+                        });
+
+                        setFieldSetMapper( new BeanWrapperFieldSetMapper<Product>(){
+                            {
+                                setTargetType(Product.class);
+                            }
+                        });
+                    }
+                }
+
+        );
+        //step 3 tell reader to skip the header
+        reader.setLinesToSkip(1);
+        return reader;
+
+    }
+
+    @Bean
+    public Step flatFileStep(){
         return steps.get("step").
                         <Integer,Integer>chunk(3)
                  .reader(flatFileItemReader( null ))
@@ -80,11 +124,29 @@ public class BatchConfiguration {
     }
 
     @Bean
-    public Job helloWorldJob(){
-        return jobs.get("helloWorldJob")
+    public Step fixedWidthFileStep(){
+        return steps.get("step").
+                        <Integer,Integer>chunk(3)
+                .reader(fixedWidthFileItemReader( null ))
+                .writer(new ConsoleItemWriter())
+                .build();
+    }
+
+    @Bean
+    public Job flatFileJob(){
+        return jobs.get("flatFileJob")
                 .incrementer(new RunIdIncrementer())
                 .listener(hwJobExecutionListener)
-                .start(step())
+                .start(flatFileStep())
+                .build();
+    }
+
+    @Bean
+    public Job fixedWidthFileJob(){
+        return jobs.get("fixedWidthFileJob")
+                .incrementer(new RunIdIncrementer())
+                .listener(hwJobExecutionListener)
+                .start(fixedWidthFileStep())
                 .build();
     }
 }
