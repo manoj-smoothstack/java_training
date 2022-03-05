@@ -50,9 +50,17 @@ public class AuditableUserSample {
 		auditorAware.setAuditor(user);
 
 		user = repository.save(user);
+
+		var user1 = new AuditableUser();
+		auditorAware.setAuditor(user1);
+
 		user = repository.save(user);
 
+		user1.setUsername("username1");
+
+		user1 = repository.save(user1);
+
 		assertThat(user.getCreatedBy()).isEqualTo(user);
-		assertThat(user.getLastModifiedBy()).isEqualTo(user);
+		assertThat(user1.getLastModifiedBy()).isEqualTo(user1);
 	}
 }

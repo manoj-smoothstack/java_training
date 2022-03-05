@@ -38,10 +38,14 @@ public class AccessingDataJpaApplication {
 
 			// fetch an individual customer by ID
 			Customer customer = repository.findById(1L);
-			log.info("Customer found with findById(1L):");
-			log.info("--------------------------------");
-			log.info(customer.toString());
-			log.info("");
+			if (customer != null) {
+				log.info("Customer found with findById(1L):");
+				log.info("--------------------------------");
+				log.info(customer.toString());
+				log.info("");
+			} else {
+				log.info("Customer not found");
+			}
 
 			// fetch customers by last name
 			log.info("Customer found with findByLastName('Bauer'):");
