@@ -52,7 +52,7 @@ public class BatchConfiguration {
 
     @Bean
     public Step jdbcCursorStep(){
-        return steps.get("xmlFileStep").
+        return steps.get("jdbcCursorStep").
                         <Integer,Integer>chunk(3)
                  .reader(jdbcCursorItemReader())
                 .writer(new ConsoleItemWriter())
@@ -61,7 +61,7 @@ public class BatchConfiguration {
 
     @Bean
     public Job jdbcCursorJob(){
-        return jobs.get("xmlFileJob")
+        return jobs.get("jdbcCursorJob")
                 .incrementer(new RunIdIncrementer())
                 .listener(hwJobExecutionListener)
                 .start(jdbcCursorStep())
