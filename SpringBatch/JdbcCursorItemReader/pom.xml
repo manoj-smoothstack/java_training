@@ -13,7 +13,7 @@
     </parent>
 
     <groupId>org.smoothstack.springbatch</groupId>
-    <artifactId>FlatFileItemReader</artifactId>
+    <artifactId>JdbcCursorItemReader</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <dependencies>
