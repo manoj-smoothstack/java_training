@@ -1,4 +1,4 @@
-package com.swt.batchwriters.model;
+package com.smoothstack.springbatch.flatfilewriter.model;
 
 import java.math.BigDecimal;
 

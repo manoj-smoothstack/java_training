@@ -1,6 +1,6 @@
-package com.swt.batchwriters;
+package com.smoothstack.springbatch.flatfilewriter;
 
-import com.swt.batchwriters.model.Product;
+import com.smoothstack.springbatch.flatfilewriter.model.Product;
 import org.springframework.batch.core.Job;
 import org.springframework.batch.core.Step;
 import org.springframework.batch.core.configuration.annotation.EnableBatchProcessing;

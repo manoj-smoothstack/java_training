@@ -1,4 +1,4 @@
-package com.swt.batchwriters;
+package com.smoothstack.springbatch.flatfilewriter;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
