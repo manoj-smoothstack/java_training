@@ -8,14 +8,10 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 import java.math.BigDecimal;
 
-//@XmlRootElement(name="product")
-//@XmlAccessorType(XmlAccessType.FIELD)
 public class Product {
 
-    //@XStreamAlias("ProdID")
     private Integer productId;
 
-    //@XmlElement(name="productName")
     private String prodName;
   
     private BigDecimal price;
