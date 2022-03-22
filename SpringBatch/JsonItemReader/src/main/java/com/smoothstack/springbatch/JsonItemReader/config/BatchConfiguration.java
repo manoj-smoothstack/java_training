@@ -11,6 +11,7 @@ import org.springframework.batch.core.configuration.annotation.JobBuilderFactory
 import org.springframework.batch.core.configuration.annotation.StepBuilderFactory;
 import org.springframework.batch.core.configuration.annotation.StepScope;
 import org.springframework.batch.core.launch.support.RunIdIncrementer;
+import org.springframework.batch.item.ItemStream;
 import org.springframework.batch.item.json.JacksonJsonObjectReader;
 import org.springframework.batch.item.json.JsonItemReader;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -44,9 +45,10 @@ public class BatchConfiguration {
 
     @Bean
     public Step jsonFileStep(){
-        return steps.get("jsonFileStep").
-                        <Integer,Integer>chunk(3)
-                 .reader(jsonItemReader( null ))
+        return steps.get("jsonFileStep")
+                .listener(hwStepExecutionListener)
+                .<Integer,Integer>chunk(3)
+                .reader(jsonItemReader( null ))
                 .writer(new ConsoleItemWriter())
                 .build();
     }

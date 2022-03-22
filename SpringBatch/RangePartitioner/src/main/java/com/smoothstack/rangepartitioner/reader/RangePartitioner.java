@@ -25,7 +25,6 @@ public class RangePartitioner implements Partitioner {
 
             fromId = toId +1;
             toId += range;
-
         }
 
         return result;

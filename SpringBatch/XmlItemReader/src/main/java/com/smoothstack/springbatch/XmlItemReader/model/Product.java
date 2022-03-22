@@ -12,7 +12,7 @@ public class Product {
 
     private Integer productId;
 
-    private String prodName;
+    private String productName;
 
     private BigDecimal price;
     private Integer unit;
@@ -22,7 +22,7 @@ public class Product {
     public String toString() {
         return "Product{" +
                 "productID=" + productId +
-                ", productName='" + prodName + '\'' +
+                ", productName='" + productName + '\'' +
                 ", productDesc='" + productDesc + '\'' +
                 ", price=" + price +
                 ", unit=" + unit +
@@ -38,11 +38,11 @@ public class Product {
     }
 
     public String getProdName() {
-        return prodName;
+        return productName;
     }
 
     public void setProdName(String prodName) {
-        this.prodName = prodName;
+        this.productName = prodName;
     }
 
     public String getProductDesc() {

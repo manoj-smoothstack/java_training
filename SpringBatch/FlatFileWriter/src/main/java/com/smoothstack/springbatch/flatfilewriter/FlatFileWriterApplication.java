@@ -4,8 +4,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BatchwritersApplication {
+public class FlatFileWriterApplication {
     public static void main(String[] args) {
-        SpringApplication.run(BatchwritersApplication.class, args);
+        SpringApplication.run(FlatFileWriterApplication.class, args);
     }
 }

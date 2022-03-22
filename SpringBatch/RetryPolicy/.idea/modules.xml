@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/RetryPolicy.iml" filepath="$PROJECT_DIR$/.idea/RetryPolicy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SimpleProductClient/batchwriters.iml" filepath="$PROJECT_DIR$/SimpleProductClient/batchwriters.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SimpleProductService/simpleproductservice.iml" filepath="$PROJECT_DIR$/SimpleProductService/simpleproductservice.iml" />
+    </modules>
+  </component>
+</project>

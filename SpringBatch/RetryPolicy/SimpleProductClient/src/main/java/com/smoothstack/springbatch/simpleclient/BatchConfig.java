@@ -28,7 +28,6 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.core.io.FileSystemResource;
 import org.springframework.oxm.xstream.XStreamMarshaller;
 import org.springframework.web.client.ResourceAccessException;
-import processor.ProductProcessor;
 
 import javax.sql.DataSource;
 import java.io.IOException;
@@ -123,8 +122,8 @@ public class BatchConfig {
                 .faultTolerant()
                 .retry(ResourceAccessException.class)
                 .retryLimit(5)
-                .skip(ResourceAccessException.class)
-                .skipLimit(30)
+                //.skip(ResourceAccessException.class)
+                //.skipLimit(30)
                 //Skippolicy
                 //.skipPolicy(new AlwaysSkipItemSkipPolicy())
                 // .listener(new ProductSkipListener())

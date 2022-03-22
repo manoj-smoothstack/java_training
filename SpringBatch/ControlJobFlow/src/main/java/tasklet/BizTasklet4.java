@@ -19,12 +19,14 @@ public class BizTasklet4 implements Tasklet, StepExecutionListener {
 
     @Override
     public void beforeStep(StepExecution stepExecution) {
+        stepExecution.getJobExecution().getExecutionContext().put("a", 10);
 
     }
 
     @Override
     public ExitStatus afterStep(StepExecution stepExecution) {
         //System.out.println("Task failed");
+        System.out.println("VALUE a = " + stepExecution.getJobExecution().getExecutionContext().get("a"));
         return ExitStatus.FAILED;
     }
 }

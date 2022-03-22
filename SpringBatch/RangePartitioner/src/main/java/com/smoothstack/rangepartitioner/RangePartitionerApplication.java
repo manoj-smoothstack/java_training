@@ -8,5 +8,4 @@ public class RangePartitionerApplication {
     public static void main(String[] args) {
         System.exit( SpringApplication.exit( SpringApplication.run(RangePartitionerApplication.class, args)));
     }
-
 }

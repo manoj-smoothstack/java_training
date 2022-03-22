@@ -4,8 +4,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class RetryClientApplication {
+public class RestartableClientApplication {
     public static void main(String[] args) {
-        SpringApplication.run(RetryClientApplication.class, args);
+        SpringApplication.run(RestartableClientApplication.class, args);
     }
 }

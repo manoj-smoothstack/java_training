@@ -2,43 +2,28 @@ package com.smoothstack.springbatch.simpleclient;
 
 
 import com.smoothstack.springbatch.simpleclient.model.Product;
-import com.smoothstack.springbatch.simpleclient.reader.ProductServiceAdapter;
 import org.springframework.batch.core.Job;
 import org.springframework.batch.core.Step;
 import org.springframework.batch.core.configuration.annotation.EnableBatchProcessing;
 import org.springframework.batch.core.configuration.annotation.JobBuilderFactory;
 import org.springframework.batch.core.configuration.annotation.StepBuilderFactory;
 import org.springframework.batch.core.configuration.annotation.StepScope;
-import org.springframework.batch.core.launch.support.RunIdIncrementer;
-import org.springframework.batch.item.adapter.ItemReaderAdapter;
-import org.springframework.batch.item.database.ItemPreparedStatementSetter;
-import org.springframework.batch.item.database.JdbcBatchItemWriter;
-import org.springframework.batch.item.database.builder.JdbcBatchItemWriterBuilder;
 import org.springframework.batch.item.file.*;
 import org.springframework.batch.item.file.mapping.BeanWrapperFieldSetMapper;
 import org.springframework.batch.item.file.mapping.DefaultLineMapper;
 import org.springframework.batch.item.file.transform.BeanWrapperFieldExtractor;
 import org.springframework.batch.item.file.transform.DelimitedLineAggregator;
 import org.springframework.batch.item.file.transform.DelimitedLineTokenizer;
-import org.springframework.batch.item.xml.StaxEventItemWriter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.io.FileSystemResource;
-import org.springframework.oxm.xstream.XStreamMarshaller;
-import org.springframework.web.client.ResourceAccessException;
-import processor.ProductProcessor;
+//import processor.ProductProcessor;
 
 import javax.sql.DataSource;
 import java.io.IOException;
 import java.io.Writer;
-import java.sql.PreparedStatement;
-import java.sql.SQLException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
-import java.util.HashMap;
-import java.util.List;
 
 @EnableBatchProcessing
 @Configuration
@@ -142,21 +127,11 @@ public class BatchConfig {
     }
 
     @Bean
-    public Step retryStep() {
+    public Step restartStep() {
         return steps.get("retryStep")
                 .<Product, Product>chunk(3)
                 .reader(reader(null))
-                //.reader(serviceAdapter())
-                .processor(new ProductProcessor())
                 .writer(flatFileItemWriter(null))
-                //.faultTolerant()
-                //.retry(ResourceAccessException.class)
-                //.retryLimit(5)
-                //.skip(ResourceAccessException.class)
-                //.skipLimit(30)
-                //Skippolicy
-                //.skipPolicy(new AlwaysSkipItemSkipPolicy())
-                // .listener(new ProductSkipListener())
                 .build();
     }
 
@@ -167,11 +142,10 @@ public class BatchConfig {
                 .build();
     }
     @Bean
-    public Job retryJob() {
+    public Job restartJob() {
         return jobs.get("retryJob")
-                //.incrementer(new RunIdIncrementer())
                 .start(step0())
-                .next(retryStep())
+                .next(restartStep())
                 .build();
     }
 

@@ -49,22 +49,11 @@ public class BatchConfig {
                 .build();
     }
 
-    public Step bizStep4() {
-        return steps.get("bizStep4")
-                .tasklet(new BizTasklet4())
-                .build();
-    }
+
 
     public Step cleanupStep() {
         return steps.get("cleanupStep")
                 .tasklet(new CleanupTasklet())
-                .build();
-    }
-
-    public Flow splitFlow() {
-        return new FlowBuilder<SimpleFlow>("splitFlow")
-                .split(new SimpleAsyncTaskExecutor())
-                .add(fileFlow(), bizFlow1(), bizFlow2())
                 .build();
     }
 
@@ -87,6 +76,12 @@ public class BatchConfig {
                 .build();
     }
 
+    public Step bizStep4() {
+        return steps.get("bizStep4")
+                .tasklet(new BizTasklet4())
+                .build();
+    }
+
     public Flow bizFlow2() {
         return new FlowBuilder<SimpleFlow>("bizFlow2")
                 .start(bizStep4())
@@ -96,9 +91,16 @@ public class BatchConfig {
                 .build();
     }
 
+    public Flow splitFlow() {
+        return new FlowBuilder<SimpleFlow>("splitFlow")
+                .split(new SimpleAsyncTaskExecutor())
+                .add(fileFlow(), bizFlow1(), bizFlow2())
+                .build();
+    }
+
     @Bean
-    public Job job1() {
-        return jobs.get("job1")
+    public Job controlJobFlow() {
+        return jobs.get("controlJobFlow")
                 .incrementer(new RunIdIncrementer())
                 .start(splitFlow())
                 .next(cleanupStep())

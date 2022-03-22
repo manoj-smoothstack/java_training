@@ -120,10 +120,10 @@ public class BatchConfig {
                 .processor(new ProductProcessor())
                 .writer(flatFileItemWriter(null))
                 .faultTolerant()
-                //.skip(FlatFileParseException.class)
-                //.skipLimit(3)
+                .skip(FlatFileParseException.class)
+                .skipLimit(3)
                 //Skippolicy
-                .skipPolicy(new AlwaysSkipItemSkipPolicy())
+                //.skipPolicy(new AlwaysSkipItemSkipPolicy())
                 .listener(new ProductSkipListener())
                 .build();
    }

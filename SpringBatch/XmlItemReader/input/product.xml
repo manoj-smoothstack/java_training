@@ -13,5 +13,12 @@
         <unit>100</unit>
         <price>7000.00</price>
     </product>
+    <product>
+        <productId>3</productId>
+        <productName>Microsoft</productName>
+        <productDesc>MS</productDesc>
+        <unit>10</unit>
+        <price>700.00</price>
+    </product>
 </products>
 

@@ -9,7 +9,6 @@ import org.springframework.stereotype.Component;
 public class HwStepExecutionListener  implements StepExecutionListener {
     @Override
     public void beforeStep(StepExecution stepExecution) {
-
         System.out.println("this is from Before Step Execution" + stepExecution.getJobExecution().getExecutionContext());
 
         System.out.println(" In side Step - print job paramters" + stepExecution.getJobExecution().getJobParameters());

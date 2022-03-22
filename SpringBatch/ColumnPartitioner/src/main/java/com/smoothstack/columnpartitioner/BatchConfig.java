@@ -71,7 +71,6 @@ public class BatchConfig {
     public ColumnRangePartitioner columnRangePartitioner() {
         ColumnRangePartitioner columnRangePartitioner = new ColumnRangePartitioner();
         columnRangePartitioner.setColumn("product_id");
-        ;
         columnRangePartitioner.setDataSource(dataSource);
         columnRangePartitioner.setTable("product");
         return columnRangePartitioner;
