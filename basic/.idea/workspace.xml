@@ -5,53 +5,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="159ff2c6-7bf8-4a6e-93d2-01fcfa9df049" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../JDBCDemo/JDBCDemo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JUnitDemo/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JUnitDemo/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JUnitDemo/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JUnitDemo/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JUnitDemo/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JUnitDemo/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JUnitDemo/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JUnitDemo/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JUnitDemo/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JUnitDemo/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JUnitDemo/JUnitDemo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_28.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_all_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Question/Question.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JDBCDemo/src/main/java/com/smoothstack/jdbc/basic/AccountDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JDBCDemo/src/main/java/com/smoothstack/jdbc/basic/AccountDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JDBCDemo/src/main/java/com/smoothstack/jdbc/basic/CustomerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JDBCDemo/src/main/java/com/smoothstack/jdbc/basic/CustomerDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JDBCDemo/src/main/java/com/smoothstack/jdbc/basic/StudentUpdateDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JDBCDemo/src/main/java/com/smoothstack/jdbc/basic/StudentUpdateDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JUnitDemo.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JUnitDemo/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JUnitDemo/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JUnitDemo/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JUnitDemo/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JUnitDemo/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JUnitDemo/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JUnitDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JUnitDemo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JUnitDemo/src/test/java/com/smoothstack/demo/DemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JUnitDemo/src/test/java/com/smoothstack/demo/DemoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBatch/RestartableJob/.idea/RestartableJob.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBatch/RetryPolicy/.idea/RetryPolicy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBatch/ColumnPartitioner/src/main/java/com/smoothstack/columnpartitioner/BatchConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBatch/ColumnPartitioner/src/main/java/com/smoothstack/columnpartitioner/BatchConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBatch/ControlJobFlow/src/main/java/com/smoothstack/controljobflow/BatchConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBatch/ControlJobFlow/src/main/java/com/smoothstack/controljobflow/BatchConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBatch/ControlJobFlow/src/main/java/tasklet/BizTasklet4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBatch/ControlJobFlow/src/main/java/tasklet/BizTasklet4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBatch/FlatFileItemReader/src/main/java/com/smoothstack/springbatch/FlatFileItemReader/config/BatchConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBatch/FlatFileItemReader/src/main/java/com/smoothstack/springbatch/FlatFileItemReader/config/BatchConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBatch/FlatFileWriter/output/productOutput.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBatch/FlatFileWriter/output/productOutput.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBatch/FlatFileWriter/src/main/java/com/smoothstack/springbatch/flatfilewriter/FlatFileWriterApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBatch/FlatFileWriter/src/main/java/com/smoothstack/springbatch/flatfilewriter/FlatFileWriterApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBatch/FlatFileWriter/src/test/java/com/smoothstack/springbatch/flatfilewriter/FlatFileWriterApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBatch/FlatFileWriter/src/test/java/com/smoothstack/springbatch/flatfilewriter/FlatFileWriterApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBatch/HibernateItemReader/src/main/java/com/smoothstack/springbatch/HibernateCursorItemReader/config/BatchConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBatch/HibernateItemReader/src/main/java/com/smoothstack/springbatch/HibernateCursorItemReader/config/BatchConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBatch/JdbcCursorItemReader/src/main/java/com/smoothstack/springbatch/JdbcCursorItemReader/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBatch/JdbcCursorItemReader/src/main/java/com/smoothstack/springbatch/JdbcCursorItemReader/model/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBatch/JsonItemReader/src/main/java/com/smoothstack/springbatch/JsonItemReader/config/BatchConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBatch/JsonItemReader/src/main/java/com/smoothstack/springbatch/JsonItemReader/config/BatchConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBatch/JsonItemReader/src/main/java/com/smoothstack/springbatch/JsonItemReader/listener/HwStepExecutionListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBatch/JsonItemReader/src/main/java/com/smoothstack/springbatch/JsonItemReader/listener/HwStepExecutionListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBatch/MultiThreadedJob/output/productout.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBatch/MultiThreadedJob/output/productout.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBatch/RangePartitioner/src/main/java/com/smoothstack/rangepartitioner/BatchConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBatch/RangePartitioner/src/main/java/com/smoothstack/rangepartitioner/BatchConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBatch/RangePartitioner/src/main/java/com/smoothstack/rangepartitioner/RangePartitionerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBatch/RangePartitioner/src/main/java/com/smoothstack/rangepartitioner/RangePartitionerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBatch/RangePartitioner/src/main/java/com/smoothstack/rangepartitioner/reader/RangePartitioner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBatch/RangePartitioner/src/main/java/com/smoothstack/rangepartitioner/reader/RangePartitioner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBatch/RestartableJob/SimpleProductClient/input/product.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBatch/RestartableJob/SimpleProductClient/input/product.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBatch/RestartableJob/SimpleProductClient/src/main/java/com/smoothstack/springbatch/simpleclient/BatchConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBatch/RestartableJob/SimpleProductClient/src/main/java/com/smoothstack/springbatch/simpleclient/BatchConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBatch/RestartableJob/SimpleProductClient/src/main/java/com/smoothstack/springbatch/simpleclient/RestartableClientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBatch/RestartableJob/SimpleProductClient/src/main/java/com/smoothstack/springbatch/simpleclient/RestartableClientApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBatch/RestartableJob/SimpleProductClient/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBatch/RestartableJob/SimpleProductClient/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBatch/RetryPolicy/SimpleProductClient/src/main/java/com/smoothstack/springbatch/simpleclient/BatchConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBatch/RetryPolicy/SimpleProductClient/src/main/java/com/smoothstack/springbatch/simpleclient/BatchConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBatch/RetryPolicy/SimpleProductService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBatch/RetryPolicy/SimpleProductService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBatch/ServiceItemReader/simpleservice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBatch/ServiceItemReader/simpleservice/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBatch/SkipInvalidRecords/error/read_skipped" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBatch/SkipInvalidRecords/error/read_skipped" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBatch/SkipInvalidRecords/output/productOut.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBatch/SkipInvalidRecords/output/productOut.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBatch/SkipInvalidRecords/src/main/java/com/smoothstack/springbatch/skipinvalid/BatchConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBatch/SkipInvalidRecords/src/main/java/com/smoothstack/springbatch/skipinvalid/BatchConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBatch/SkipInvalidRecords/src/main/java/processor/ProductProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBatch/SkipInvalidRecords/src/main/java/processor/ProductProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBatch/SkipInvalidRecords/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBatch/SkipInvalidRecords/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBatch/XmlItemReader/input/product.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBatch/XmlItemReader/input/product.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBatch/XmlItemReader/src/main/java/com/smoothstack/springbatch/XmlItemReader/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBatch/XmlItemReader/src/main/java/com/smoothstack/springbatch/XmlItemReader/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBatch/assignments/Day2/transactions.csv.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMVC/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMVC/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/smoothstack/io/TempFileExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smoothstack/io/TempFileExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/smoothstack/lambdas/LambdaExpressions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smoothstack/lambdas/LambdaExpressions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/smoothstack/misc/RandomExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smoothstack/misc/RandomExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/smoothstack/oop/DefaultMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smoothstack/oop/DefaultMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/smoothstack/streams/menu/L_FlatMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smoothstack/streams/menu/L_FlatMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/smoothstack/access/Access.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smoothstack/access/Access.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/smoothstack/basic/BasicMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smoothstack/basic/BasicMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/smoothstack/misc/ArrayDecl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smoothstack/misc/ArrayDecl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/smoothstack/misc/StaticA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smoothstack/misc/StaticA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/smoothstack/misc/StaticBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smoothstack/misc/StaticBlocks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/smoothstack/system/RunnerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smoothstack/system/RunnerFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,13 +83,19 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="JUnit.DemoShortTest">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.smoothstack.anotherpkg" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ArrayDecl">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -102,10 +103,24 @@
       <module />
       <method />
     </configuration>
+    <configuration name="ArrayDecl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.smoothstack.misc.ArrayDecl" />
+      <module name="basic" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.smoothstack.misc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BasicMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.smoothstack.basic.BasicMain" />
       <module name="basic" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PROGRAM_PARAMETERS" value="-ea" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.smoothstack.basic.*" />
@@ -116,13 +131,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateTableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.smoothstack.jdbc.main.CreateTableDemo" />
-      <module name="JDBCDemo" />
+    <configuration name="GCWithStatic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.smoothstack.gc.GCWithStatic" />
+      <module name="basic" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.smoothstack.jdbc.main.*" />
+          <option name="PATTERN" value="com.smoothstack.gc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LabelExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.smoothstack.misc.LabelExample" />
+      <module name="basic" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.smoothstack.misc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StaticBlocks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.smoothstack.misc.StaticBlocks" />
+      <module name="basic" />
+      <option name="VM_PARAMETERS" value="-Djava.compiler=NONE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.smoothstack.misc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,55 +175,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DemoShortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JUnitDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.smoothstack.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.smoothstack.demo" />
-      <option name="MAIN_CLASS_NAME" value="com.smoothstack.demo.DemoShortTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StudentDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JDBCDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.smoothstack.jdbc.basic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.smoothstack.jdbc.basic" />
-      <option name="MAIN_CLASS_NAME" value="com.smoothstack.jdbc.basic.StudentDaoTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StudentDaoTest.testGetStudents" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JDBCDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.smoothstack.jdbc.basic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.smoothstack.jdbc.basic" />
-      <option name="MAIN_CLASS_NAME" value="com.smoothstack.jdbc.basic.StudentDaoTest" />
-      <option name="METHOD_NAME" value="testGetStudents" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -210,13 +204,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.BasicMain" />
+      <item itemvalue="Application.StaticBlocks" />
+      <item itemvalue="Application.GCWithStatic" />
+      <item itemvalue="Application.LabelExample" />
+      <item itemvalue="Application.ArrayDecl" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DemoShortTest" />
-        <item itemvalue="JUnit.StudentDaoTest" />
-        <item itemvalue="JUnit.StudentDaoTest.testGetStudents" />
-        <item itemvalue="Application.CreateTableDemo" />
+        <item itemvalue="Application.ArrayDecl" />
+        <item itemvalue="Application.LabelExample" />
         <item itemvalue="Application.BasicMain" />
+        <item itemvalue="Application.GCWithStatic" />
+        <item itemvalue="Application.StaticBlocks" />
       </list>
     </recent_temporary>
   </component>

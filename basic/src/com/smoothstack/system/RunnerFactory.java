@@ -9,7 +9,7 @@ import java.lang.reflect.Method;
 import java.util.List;
 
 public class RunnerFactory {
-    public RunnerFactory(Class[] list, Class exclude) throws ClassNotFoundException, InvocationTargetException, InstantiationException, IllegalAccessException, NoSuchMethodException {
+    public RunnerFactory(Class[] list, Class exclude) throws ClassNotFoundException, InvocationTargetException, InstantiationException, IllegalAccessException, NoSuchMethodException, InterruptedException {
         String classToExclude = exclude.getName();
         int cntr = 0;
         int tcntr = 0;
@@ -51,12 +51,14 @@ public class RunnerFactory {
         }
     }
 
-    public boolean run(Class c) throws ClassNotFoundException, InvocationTargetException, InstantiationException, IllegalAccessException, NoSuchMethodException {
+    public boolean run(Class c) throws ClassNotFoundException, InvocationTargetException, InstantiationException, IllegalAccessException, NoSuchMethodException, InterruptedException {
         String cname = c.getName();
         Class<?> myClass = Class.forName(cname);
         if (isSkippable(myClass))
             return false;
-        new Thread(new MyRunner(myClass)).start();
+        Thread t = new Thread(new MyRunner(myClass));
+        t.start();
+        t.join();
         return true;
     }
 
