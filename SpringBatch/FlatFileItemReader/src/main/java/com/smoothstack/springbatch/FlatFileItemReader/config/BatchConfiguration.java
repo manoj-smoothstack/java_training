@@ -117,7 +117,7 @@ public class BatchConfiguration {
     @Bean
     public Step flatFileStep(){
         return steps.get("step").
-                        <Integer,Integer>chunk(3)
+                        <Integer,Integer>chunk(4)
                  .reader(flatFileItemReader( null ))
                 .writer(new ConsoleItemWriter())
                 .build();
@@ -126,7 +126,7 @@ public class BatchConfiguration {
     @Bean
     public Step fixedWidthFileStep(){
         return steps.get("step").
-                        <Integer,Integer>chunk(3)
+                        <Integer,Integer>chunk(1)
                 .reader(fixedWidthFileItemReader( null ))
                 .writer(new ConsoleItemWriter())
                 .build();
