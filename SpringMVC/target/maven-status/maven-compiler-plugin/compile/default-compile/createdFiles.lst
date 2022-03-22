@@ -1,0 +1,4 @@
+com/smoothstack/springmvc/SpringbootThymeleafWebAppApplication.class
+com/smoothstack/springmvc/entity/Student.class
+com/smoothstack/springmvc/controller/StudentController.class
+com/smoothstack/springmvc/repository/StudentRepository.class
