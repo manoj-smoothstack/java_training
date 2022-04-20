@@ -45,10 +45,11 @@ class DemoTest {
     @Test
     @DisabledOnJre(JAVA_9)
     @EnabledIfSystemProperty(named = "os.arch", matches = ".*64.*")
-    @EnabledIfEnvironmentVariable(named = "USER", matches = "manojjoshi")
+    @EnabledIfEnvironmentVariable(named = "USER", matches = "manoj")
     @Order(2)
     public void testHello() {
         assertNotNull(demo);
+        System.out.println("Running testHello");
         assert demo.hello() == "hello";
     }
 
@@ -59,8 +60,9 @@ class DemoTest {
     @EnabledIf("customCondition")
     @Order(1)
     public void testWorld() {
-        assumeTrue("user".equals(System.getenv("manojjoshi")));
+        assumeTrue("manoj".equals(System.getenv("USER")));
         assertNotNull(demo);
+        System.out.println("testWorld");
         assert demo.world() == "world";
     }
 
